@@ -7,4 +7,5 @@ Link Video
 https://youtu.be/0nOHK8FtXmM?si=vkM7jjnTD6cP0s_O
 
 pip install -r requirements.txt
+
 python -m streamlit run homepage.py
