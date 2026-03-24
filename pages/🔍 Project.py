@@ -6,7 +6,6 @@ import os
 
 st.set_page_config(page_title="AI Detection", page_icon="🔍")
 
-# ฟังก์ชันโหลดโมเดล
 @st.cache_resource
 def load_model():
     if os.path.exists('mask_model.h5'):
@@ -26,8 +25,6 @@ if uploaded_files:
         col1, col2 = st.columns([1, 1.5])
         
         with col1:
-            # แก้ไขตรงนี้: เปลี่ยนจาก use_container_width=True เป็น width=250 (หรือขนาดที่ต้องการ)
-            # เพื่อล็อคขนาดรูปไม่ให้ใหญ่เกินไปตามขนาดคอลัมน์
             st.image(image, width=250) 
         
         with col2:

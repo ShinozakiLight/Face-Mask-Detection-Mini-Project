@@ -109,7 +109,6 @@ plt.legend()
 plt.title("Training Accuracy")
 plt.show()
 
-
 # Save Model (mask_model.h5)
 model.save('mask_model.h5')
 print("Model Saved Successfully as 'mask_model.h5'!")

@@ -5,31 +5,28 @@ st.set_page_config(page_title="Contact Us", page_icon="📞", layout="wide")
 st.title("📞 Contact")
 st.markdown("---")
 
-# สร้าง 2 คอลัมน์สำหรับ 2 คน
 col1, col2 = st.columns(2)
 
 # --- คนที่ 1 ---
 with col1:
-    # ใส่รูปภาพ (ถ้าไม่มีไฟล์ให้เปลี่ยน path เป็น URL หรือที่อยู่ไฟล์จริง)
-    st.image("https://cdn-icons-png.flaticon.com/512/3135/3135715.png", width=150)
+    st.image("https://scontent.fbkk5-3.fna.fbcdn.net/v/t39.30808-6/606725317_25363016656700730_3223074879178583404_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeHDm3DTPUt43FmeLu_cfkYZomUSik2SFxuiZRKKTZIXG4r0idbbCsCk4TBatkGxpvIThMeGPnVKg4v1whdKgqPq&_nc_ohc=vE-wigWV9GUQ7kNvwEDkQgq&_nc_oc=AdqLP03T9mK1nEDH-UfDeU4Psm5Y_ewbD1YH9EveVD49dAYXdbKSyCX7eNdQDxi8WKc&_nc_zt=23&_nc_ht=scontent.fbkk5-3.fna&_nc_gid=LUM6rvlJ2k3nZmUl1LD2Fw&_nc_ss=7a32e&oh=00_AfypUKYqT2luD3SOeQh2diP4wD-3ulLo_TpO9cL3F1Thhw&oe=69C7FD4D", width=150)
     st.subheader("👨‍💻 สมาชิกคนที่ 1")
     st.markdown("""
-    * **ชื่อ-นามสกุล:** นายโปรแกรมเมอร์ ใจดี
-    * **หน้าที่:** พัฒนา Model AI
-    * **📧 Email:** dev1@example.com
-    * **💻 GitHub:** [github.com/user1](https://github.com)
+    * **ชื่อ-นามสกุล:** นายพลกฤต สมทรง
+    * **รหัสนักศึกษา:** 116730462007-9
+    * **สาขา:** วิศวกรรมคอมพิวเตอร์
+    * **📧 Email:** 1167304620079@mail.rmutt.ac.th
     """)
 
 # --- คนที่ 2 ---
 with col2:
-    # ใส่รูปภาพ
-    st.image("https://cdn-icons-png.flaticon.com/512/3135/3135789.png", width=150)
+    st.image("https://scontent.fbkk5-5.fna.fbcdn.net/v/t39.30808-6/409459322_1408190196449233_6122664148907735822_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=1d70fc&_nc_eui2=AeE_16wzIyKYQRxpil45gaEljAhYWgdkmeKMCFhaB2SZ4lGMkASIbIOZFsVFnLCrR3r6y2FrWeKOJ6EHE-DSbRUW&_nc_ohc=N1jV2Zrby44Q7kNvwH4mNjK&_nc_oc=AdqVosYKyPBQcLUghLvsgZhW4E9_RDh2kbmRgacLh3RKh5jhLRoHV8RIcsMIn4ZkZM8&_nc_zt=23&_nc_ht=scontent.fbkk5-5.fna&_nc_gid=ZyvCyyR5TAwI4p3m5B9PzA&_nc_ss=7a32e&oh=00_AfyFY_TUc5phEe00bPc5Rzhre_XMNGp3iwlmmprnmEiSGg&oe=69C811EC", width=150)
     st.subheader("👨‍💻 สมาชิกคนที่ 2")
     st.markdown("""
-    * **ชื่อ-นามสกุล:** นายขยัน เรียนรู้
-    * **หน้าที่:** ออกแบบ UI/UX
-    * **📧 Email:** dev2@example.com
-    * **💻 GitHub:** [github.com/user2](https://github.com)
+    * **ชื่อ-นามสกุล:** นายชีวากร อาจดีลัง
+    * **รหัสนักศึกษา:** 116730462019-4
+    * **สาขา:** วิศวกรรมคอมพิวเตอร์
+    * **📧 Email:** 1167304620194@mail.rmutt.ac.th
     """)
 
 st.markdown("---")

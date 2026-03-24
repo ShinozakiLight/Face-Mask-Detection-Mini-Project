@@ -21,3 +21,7 @@ with col2:
         st.switch_page("pages/🔍 Project.py")
 
 st.info("👈 เลือกเมนูที่แถบด้านข้างเพื่อไปหน้าต่างๆ")
+
+
+
+
